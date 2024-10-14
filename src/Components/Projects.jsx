@@ -1,8 +1,8 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 
-import ss from "../assets/ss.png"; // Secure Share image
-import yum from "../assets/yum.png"; // Yum Recipes image
+import ss from "../../assets/ss.png"; // Secure Share image
+import yum from "../../assets/yum.png"; // Yum Recipes image
 // ... existing code ...
 import fcc from "../../assets/fc.png";
 // ... existing code ...
