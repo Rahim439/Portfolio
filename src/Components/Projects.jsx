@@ -1,9 +1,11 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
-import fc from "../assets/fc.png"; // Fast Convert image
+import fcc from "../assets/fc.png"; // Fast Convert image
 import ss from "../assets/ss.png"; // Secure Share image
 import yum from "../assets/yum.png"; // Yum Recipes image
+// ... existing code ...
 
+// ... existing code ...
 const Projects = () => {
   const projects = [
     {
@@ -20,7 +22,7 @@ const Projects = () => {
       technologies: ["React", "TailwindCSS", "Currency API"],
       liveDemo: "https://fast-convert.vercel.app/",
       github: "https://github.com/Rahim439/currencyConverter",
-      image: fc, // Use the imported image for Fast Convert
+      image: fcc, // Use the imported image for Fast Convert
     },
     {
       title: "Yum Recipes",
