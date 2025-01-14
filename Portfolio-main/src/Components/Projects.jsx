@@ -1,6 +1,8 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
-
+import fc from "/fc.png";
+import ss from "/ss.png";
+import yum from "/yum.png";
 const Projects = () => {
   const projects = [
     {
@@ -9,7 +11,7 @@ const Projects = () => {
       technologies: ["React", "TailwindCSS", "PWPush API"],
       liveDemo: "https://secure-share-dev.vercel.app/",
       github: "https://github.com/Rahim439/SecureShare",
-      image: "/ss.png", // Use the path from the public directory
+      image: ss, // Use the path from the public directory
     },
     {
       title: "Fast Convert",
@@ -17,7 +19,7 @@ const Projects = () => {
       technologies: ["React", "TailwindCSS", "Currency API"],
       liveDemo: "https://fast-convert.vercel.app/",
       github: "https://github.com/Rahim439/currencyConverter",
-      image: "/fc.png", // Use the path from the public directory
+      image: fc, // Use the path from the public directory
     },
     {
       title: "Yum Recipes",
@@ -25,7 +27,7 @@ const Projects = () => {
       technologies: ["React", "TailwindCSS", "Rapid API"],
       liveDemo: "https://yum-recipes.vercel.app/",
       github: "https://github.com/Rahim439/foodRecipe",
-      image: "/yum.png", // Use the path from the public directory
+      image: yum, // Use the path from the public directory
     },
   ];
 
