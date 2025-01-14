@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
-import rahim from "../assets/rahim.jpg";
-import resume from "../assets/Rahim Chaudhary Resume.pdf";
+import rahim from "/rahim.jpg";
+import resume from "/Rahim Chaudhary Resume.pdf";
 
 const Home = () => {
   return (

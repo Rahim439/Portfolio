@@ -1,7 +1,6 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 
-// ... existing code ...
 const Projects = () => {
   const projects = [
     {
@@ -10,7 +9,7 @@ const Projects = () => {
       technologies: ["React", "TailwindCSS", "PWPush API"],
       liveDemo: "https://secure-share-dev.vercel.app/",
       github: "https://github.com/Rahim439/SecureShare",
-      //image: ss, // Use the imported image for Secure Share
+      image: "/ss.png", // Use the path from the public directory
     },
     {
       title: "Fast Convert",
@@ -18,7 +17,7 @@ const Projects = () => {
       technologies: ["React", "TailwindCSS", "Currency API"],
       liveDemo: "https://fast-convert.vercel.app/",
       github: "https://github.com/Rahim439/currencyConverter",
-      //image: fcc, // Use the imported image for Fast Convert
+      image: "/fc.png", // Use the path from the public directory
     },
     {
       title: "Yum Recipes",
@@ -26,7 +25,7 @@ const Projects = () => {
       technologies: ["React", "TailwindCSS", "Rapid API"],
       liveDemo: "https://yum-recipes.vercel.app/",
       github: "https://github.com/Rahim439/foodRecipe",
-      //image: yum, // Use the imported image for Yum Recipes
+      image: "/yum.png", // Use the path from the public directory
     },
   ];
 
@@ -42,7 +41,7 @@ const Projects = () => {
             className="overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800"
           >
             <img
-              //src={project.image} // Dynamically set image based on project
+              src={project.image} // Dynamically set image based on project
               alt={project.title}
               className="object-cover w-full h-48"
             />
